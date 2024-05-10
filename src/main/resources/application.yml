@@ -1,2 +1,12 @@
 spring:
+environment: testing
+server:
+  port: 4000
+welcomeMsg: "Hello from Test"
 
+---
+spring:
+environment: production
+server:
+  port: 5000
+welcomeMsg: "Hello from Prod"
